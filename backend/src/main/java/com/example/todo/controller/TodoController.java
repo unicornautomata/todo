@@ -12,10 +12,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(
-    origins = "https://optimistic-creativity-production-e88d.up.railway.app",
-    allowCredentials = "true"
-)
 @RequestMapping("/api/todos")
 public class TodoController {
 
